@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Projeto Berstuk</title>
+<script src="codesjs.js"></script>  
+<link rel="icon" href="ico.png">
+<style>
+       
+       h2 {color:green;
+           margin: auto;
+           margin-left:auto;
+           margin-right:auto;
+           display:block}
+        p {color:green;
+           margin: auto;
+           margin-left:auto;
+           margin-right:auto;
+           display:block}
+        .button2{
+            margin: auto;
+            margin-left:auto;
+            margin-right:auto;
+            display:block
+       }
+       .button3{
+            margin: auto;
+            margin-left:auto;
+            margin-right:auto;
+            display:block;
+            opacity: 0.3;
+            filter: alpha(opacity=50);
+       }
+</style>
+</head>
+<body background="imgs\fundo01.png">
+
+
+<img class="button2" src="imgs\telagato.png" usemap="#buttonmap">
+<map name="buttonmap">
+    <area shape="circle" coords="512, 717, 44" onclick="passrequestgato()">
+</map>
+<audio volume="0.2" id="morse" class="button3" autoplay loop>
+        <source src="audio\morsecode.wav" type="audio/wav">
+        Your browser does not support the audio tag.
+      </audio>
+</body>
+<html>
