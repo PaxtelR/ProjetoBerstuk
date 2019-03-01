@@ -1,1 +1,80 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('8 v(){1 5="t";1 4="z";1 r="A";6 2;s=e(\'h o g:\',\'\');b((5||4||r)==s){c.d="t.a"}9 7(\'f i\')}8 K(){1 5="H";1 4="E";6 2;p=e(\'h o g:\',\'\');b(5||4==p){c.d="F.a"}9 7(\'f i\')}8 L(){1 5="m l.";1 4="m l";6 2;2=e(\'h o g:\',\'\');b(5||4==2){c.d="D.a"}9 7(\'f i\')}8 G(){1 5="J";1 4="I";6 2;2=e(\'h o g:\',\'\');b(5||4==2){c.d="C.a"}9 7(\'f i\')}8 w(){1 5="B";1 4="10";6 2;2=e(\'h o g:\',\'\');b(5||4==2){c.d="Z.a";q()}9 7(\'f i\')}8 M(){6 x,y;6 x=k.j("Y").n;6 y=k.j("11").n;b(x=="13"&&y=="12"){7("X W Q P");c.d="O.a"}9{7("N R, S V!")}}6 u=k.j("U");8 q(){u.T=0.3}',62,66,'|const|password||pass2|pass1|var|alert|function|else|htm|if|window|location|prompt|SENHA|codigo|Insira|INCORRETA|getElementById|document|Petrov|Alex|value||password2|setvolume|pass3|passwordouro|greenfiles|audio|passrequestouro|passrequestbrutus|||GREENFILES|GreenFiles|volgogrado|finalparab|brutus|Zodiaco|luminus|passrequestgato|zodiaco|berstuk|BERSTUK|passrequest2|passrequest1|myLogin|LOGIN|d1|sucesso|com|INVALIDO|TENTE|volume|morse|NOVAMENTE|feito|Login|loginn|gato|Volgogrado|senhaa|yggdrasil|perun'.split('|'),0,{}))
+function passrequestouro() {        //Desafio ouro
+    const pass1 = "greenfiles";
+    const pass2 = "GREENFILES";
+    const pass3 = "GreenFiles";
+    var password;
+
+    passwordouro = prompt('Insira o codigo:','');
+
+    if((pass1 || pass2 || pass3) == passwordouro){
+        window.location="greenfiles.htm";
+    }
+    else alert('SENHA INCORRETA');
+}
+function passrequest2() {        //Desafio green files
+    const pass1 = "zodiaco";
+    const pass2 = "Zodiaco";
+    var password;
+
+    password2 = prompt('Insira o codigo:','');
+
+    if(pass1 || pass2==password2){
+        window.location="luminus.htm";
+    }
+    else alert('SENHA INCORRETA');
+}
+function passrequest1() {        //Desafio Alex Petrov.
+    const pass1 = "Alex Petrov.";
+    const pass2 = "Alex Petrov";
+    var password;
+
+    password = prompt('Insira o codigo:','');
+
+    if(pass1 || pass2==password){
+        window.location="brutus.htm";
+    }
+    else alert('SENHA INCORRETA');
+}
+function passrequestgato() {        //Desafio Alex Petrov.
+    const pass1 = "BERSTUK";
+    const pass2 = "berstuk";
+    var password;
+
+    password = prompt('Insira o codigo:','');
+
+    if(pass1 || pass2==password){
+        window.location="finalparab.htm";
+    }
+    else alert('SENHA INCORRETA');
+}
+function passrequestbrutus() {        //Desafio brutus
+    const pass1 = "volgogrado";
+    const pass2 = "Volgogrado";
+    var password;
+
+    password = prompt('Insira o codigo:','');
+
+    if(pass1 || pass2==password){
+        window.location="gato.htm";
+        setvolume();
+    }
+    else alert('SENHA INCORRETA');
+}
+function myLogin() {        
+    var x, y;
+
+    var x = document.getElementById("loginn").value;
+    var y = document.getElementById("senhaa").value;
+
+    if (x == "perun" && y == "yggdrasil") {
+        alert("Login feito com sucesso");
+        window.location="d1.htm";
+    } else {
+        alert("LOGIN INVALIDO, TENTE NOVAMENTE!");
+    }
+
+}
+var audio = document.getElementById("morse");
+function setvolume(){
+    audio.volume = 0.3;    
+}
