@@ -12,5 +12,5 @@ Senhas caso queira avançar entre as paginas:
 1: Login: perun Senha: yggdrasil   
 2: greenfiles   
 3: zodiaco   
-4: Acessar: https://paxtelr.github.io/ProjetoBerstuk/zradca.htm
-5: volgogrado
+4: Acessar: https://paxtelr.github.io/ProjetoBerstuk/zradca.htm   
+5: volgogrado   
